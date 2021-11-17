@@ -1,0 +1,50 @@
+body{
+  width: 1000px;
+  height: 1000px;
+  background-image: url('https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.card {
+  background-color: #fff;
+  margin: 20px;
+  width: 18rem;
+  border-style: outset;
+  border-radius: 15px;
+  border-color: #abc4c4;
+  border-width: 4px;
+  box-shadow: 0 5px 10px #131313bf;
+  transition: transform .5s;
+}
+
+.card:hover {
+  border-color: yellow;
+  transform: scale(1.1);
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.iconoClima {
+  width: 60px;
+  height: 60px;
+  background-color: #00dd90eb;;
+  border-style: outset;
+  border-radius: 7px;
+  border-color: #abc4c4;
+  border-width: 2px;
+  box-shadow: 0 5px 10px #131313bf;
+  margin-bottom: 10px;
+}
